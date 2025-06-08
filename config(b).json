@@ -1,0 +1,22 @@
+{
+    "database": {
+        "hostname": "localhost",
+        "port": 3306,
+        "username": "praveen",
+        "password": "HWi4FI5xbkKC3T8K",
+        "database": "domination"
+    },
+    "servers": {
+        "TheIsland": { "hostname": "192.168.0.100", "port": "32330", "password": "DoMiNaTiOn$Hunter" },
+        "Ragnarok": { "hostname": "192.168.0.100", "port": "32331", "password": "DoMiNaTiOn$Hunter" },
+        "Extinction": { "hostname": "192.168.0.100", "port": "32332", "password": "DoMiNaTiOn$Hunter" },
+        "Valguero": { "hostname": "192.168.0.100", "port": "32333", "password": "DoMiNaTiOn$Hunter" },
+        "Gen2": { "hostname": "192.168.0.100", "port": "32334", "password": "DoMiNaTiOn$Hunter" },
+        "CrystalIsles": { "hostname": "192.168.0.100", "port": "32335", "password": "DoMiNaTiOn$Hunter" }
+    },
+    "discordBotToken": "OTQyMjYxMzcwMzQxMTg3NTk1.Ygh7SQ.jDSbhNsPCSlZzjKgYeu9jkt3Ogw",
+    "discordHostServerId": "939420104670720010",
+    "scheduledCommands": {
+        "Command1": { "time": [7, 38, 0], "command": "", "discordNotification": false, "discordNotificationChannelId": "945397375915139113", "discordmessage": "Test", "toServer": ["TheIsland", "Ragnarok", "Extinction", "Valguero", "Gen2", "CrystalIsles"] }
+    }
+}

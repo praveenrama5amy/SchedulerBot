@@ -1,0 +1,28 @@
+{
+    "name": "bots",
+    "version": "1.0.0",
+    "description": "",
+    "main": "DinoWipeBot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon DinoWipeBot.js",
+        "rcon": "nodemon rcon.js",
+        "build": "nexenpm "
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "child_process": "^1.0.2",
+        "discord.js": "^13.6.0",
+        "express": "^4.18.1",
+        "hwid": "^0.4.1",
+        "mysql": "^2.18.1",
+        "node-hwid": "^0.1.0",
+        "rcon": "^1.1.0",
+        "srcds-rcon": "^2.2.1"
+    },
+    "devDependencies": {
+        "nexe": "^4.0.0-beta.19"
+    }
+}

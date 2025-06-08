@@ -1,0 +1,81 @@
+{
+    "KeepAliveInterval" : 45,
+    "clusterName": "Domination",
+    "kalscrosschat": true,
+    "rconlistplayer": {
+        "listplayer": true,
+        "checkInterval": 0.1
+    },
+    "database": {
+        "mysqlIntegration": true,
+        "hostname": "192.168.0.123",
+        "port": 3306,
+        "username": "root",
+        "password": "",
+        "database": "web"
+    },
+    "servers": {
+        "Ragnarok": { "hostname": "192.168.0.123", "port": "32332", "password": "YaruDaNee" },
+        "Extinction": { "hostname": "192.168.0.123", "port": "32332", "password": "YaruDaNee" }
+
+    },
+    "scheduledCommands": {
+        "Alert1ForDinoWipe1": { "time": [0, 0, 0], "command": "broadcast Dino Wipe is About to perform in 15 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert2ForDinoWipe1": { "time": [0, 5, 0], "command": "broadcast Dino Wipe is About to perform in 10 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert3ForDinoWipe1": { "time": [0, 10, 0], "command": "broadcast Dino Wipe is About to perform in 5 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert4ForDinoWipe1": { "time": [0, 14, 55], "command": "broadcast Dino Wipe is About to perform. You may Experience some lag during this process", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "DinoWipe1": { "time": [0, 15, 0], "command": "DestroyWildDinos", "discordNotification": true, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Wild Dino Wiped", "toServer": ["all"] },
+        "Alert1ForDinoWipe2": { "time": [6, 0, 0], "command": "broadcast Dino Wipe is About to perform in 15 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert2ForDinoWipe2": { "time": [6, 5, 0], "command": "broadcast Dino Wipe is About to perform in 10 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert3ForDinoWipe2": { "time": [6, 10, 0], "command": "broadcast Dino Wipe is About to perform in 5 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert4ForDinoWipe2": { "time": [6, 14, 55], "command": "broadcast Dino Wipe is About to perform. You may Experience some lag during this process", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "DinoWipe2": { "time": [6, 15, 0], "command": "DestroyWildDinos", "discordNotification": true, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Wild Dino Wiped", "toServer": ["all"] },
+        "Alert1ForDinoWipe3": { "time": [12, 0, 0], "command": "broadcast Dino Wipe is About to perform in 15 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert2ForDinoWipe3": { "time": [12, 5, 0], "command": "broadcast Dino Wipe is About to perform in 10 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert3ForDinoWipe3": { "time": [12, 10, 0], "command": "broadcast Dino Wipe is About to perform in 5 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert4ForDinoWipe3": { "time": [12, 14, 55], "command": "broadcast Dino Wipe is About to perform. You may Experience some lag during this process", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "DinoWipe3": { "time": [12, 15, 0], "command": "DestroyWildDinos", "discordNotification": true, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Wild Dino Wiped", "toServer": ["all"] },
+        "Alert1ForDinoWipe4": { "time": [20, 0, 0], "command": "broadcast Dino Wipe is About to perform in 15 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert2ForDinoWipe4": { "time": [20, 5, 0], "command": "broadcast Dino Wipe is About to perform in 10 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert3ForDinoWipe4": { "time": [20, 10, 0], "command": "broadcast Dino Wipe is About to perform in 5 mins", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "Alert4ForDinoWipe4": { "time": [20, 14, 55], "command": "broadcast Dino Wipe is About to perform. You may Experience some lag during this process", "discordNotification": false, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Test", "toServer": ["all"] },
+        "DinoWipe4": { "time": [20, 15, 0], "command": "DestroyWildDinos", "discordNotification": true, "discordNotificationChannelId": "983979547655540766", "discordmessage": "Wild Dino Wiped", "toServer": ["all"] },
+        "test": {
+            "time": [11,18,0],
+            "command": "KeepAlive",
+            "discordNotification": true,
+            "discordNotificationChannelId": "810799176652161031",
+            "discordmessage": "Test",
+            "toServer": [
+                "all"
+            ]
+        },
+        "test2": {
+            "time": [11,17,30],
+            "command": "KeepAlive",
+            "discordNotification": true,
+            "discordNotificationChannelId": "810799176652161031",
+            "discordmessage": "Test",
+            "toServer": ["Ragnarok","Valguero"]
+        }
+    },
+    "discord": {
+        "discordIntegration": true,
+        "discordLogChannelId": "983979681932001301",
+        "prefix": "$",
+        "discordBotToken": "ODA2MTEwNDc4NjU2NjAyMTUz.G4kZQK.Rprc0q5wOzhJ4quLemRhW4xydRxiOFp1-bzFLA",
+        "adminRoleid": "984167082063179796",
+        "commands": {
+            "kick": "kickme",
+            "arkpoints": "points",
+            "tradepoints": "trade",
+            "admin": "admin"
+        }
+    },
+    "httpapi": {
+        "webIntegration": true,
+        "port": 3000,
+        "username": "12345678",
+        "password": "1234567890"
+    }
+}
